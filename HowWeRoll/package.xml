@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <members>BoatDataService</members>
+    <members>BoatDataServiceTest</members>
+    <members>GenerateData</members>
+    <members>GenerateDataTests</members>
+    <members>SimilarBoatsController</members>
+    <members>SimilarBoatsControllerTest</members>
+    <members>trlhdtips__tt_UtilController</members>
+    <members>trlhdtips__tt_UtilControllerTest</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>SimilarBoatsComponent</members>
+    <name>ApexComponent</name>
+  </types>
+  <types>
+    <members>SimilarBoats</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
     <members>AppSwitcher</members>
     <members>Salesforce1</members>
     <name>AppMenu</name>
@@ -16,6 +35,14 @@
     <name>AssignmentRules</name>
   </types>
   <types>
+    <members>trlhdtips__tt_install_package_cmp</members>
+    <members>trlhdtips__tt_login_cred_cmp</members>
+    <members>trlhdtips__tt_remove_padding_cmp</members>
+    <members>trlhdtips__tt_user_info_cmp</members>
+    <members>trlhdtips__tt_welcome_cmp</members>
+    <name>AuraDefinitionBundle</name>
+  </types>
+  <types>
     <members>Case</members>
     <members>Lead</members>
     <name>AutoResponseRules</name>
@@ -29,6 +56,10 @@
     <name>Community</name>
   </types>
   <types>
+    <members>trlhdtips__thflogo</members>
+    <name>ContentAsset</name>
+  </types>
+  <types>
     <members>standard__AllTabSet</members>
     <members>standard__AppLauncher</members>
     <members>standard__Chatter</members>
@@ -38,6 +69,7 @@
     <members>standard__Insights</members>
     <members>standard__LightningBolt</members>
     <members>standard__LightningInstrumentation</members>
+    <members>standard__LightningSales</members>
     <members>standard__LightningSalesConsole</members>
     <members>standard__LightningService</members>
     <members>standard__Marketing</members>
@@ -47,6 +79,7 @@
     <members>standard__Service</members>
     <members>standard__ServiceConsole</members>
     <members>standard__Sites</members>
+    <members>trlhdtips__Playground_Starter</members>
     <name>CustomApplication</name>
   </types>
   <types>
@@ -57,6 +90,18 @@
     <members>Account.SLAExpirationDate__c</members>
     <members>Account.SLASerialNumber__c</members>
     <members>Account.UpsellOpportunity__c</members>
+    <members>Boat__c.Boat_Image__c</members>
+    <members>Boat__c.BoatType__c</members>
+    <members>Boat__c.Contact__c</members>
+    <members>Boat__c.Description__c</members>
+    <members>Boat__c.Geolocation__c</members>
+    <members>Boat__c.Length__c</members>
+    <members>Boat__c.Picture__c</members>
+    <members>Boat__c.Price__c</members>
+    <members>Boat__c.Year_Built__c</members>
+    <members>BoatReview__c.Boat__c</members>
+    <members>BoatReview__c.Comment__c</members>
+    <members>BoatReview__c.Rating__c</members>
     <members>Case.EngineeringReqNumber__c</members>
     <members>Case.PotentialLiability__c</members>
     <members>Case.Product__c</members>
@@ -78,6 +123,21 @@
     <name>CustomField</name>
   </types>
   <types>
+    <members>Add_Review</members>
+    <members>Details</members>
+    <members>Full_Details</members>
+    <members>Please_select_a_boat</members>
+    <members>Reviews</members>
+    <members>trlhdtips__tt_BaseURL</members>
+    <members>trlhdtips__tt_EnterPackageId</members>
+    <members>trlhdtips__tt_InvalidPackageId</members>
+    <members>trlhdtips__tt_ResetPasswordFail</members>
+    <members>trlhdtips__tt_ResetPasswordSuccess</members>
+    <members>trlhdtips__tt_ResetPasswordTitle</members>
+    <members>trlhdtips__tt_ResetPasswordWarning</members>
+    <name>CustomLabel</name>
+  </types>
+  <types>
     <members>CustomLabels</members>
     <name>CustomLabels</name>
   </types>
@@ -94,6 +154,9 @@
     <members>AuthorizationFormConsent</members>
     <members>AuthorizationFormDataUse</members>
     <members>AuthorizationFormText</members>
+    <members>Boat__c</members>
+    <members>BoatReview__c</members>
+    <members>BoatType__c</members>
     <members>Campaign</members>
     <members>CampaignMember</members>
     <members>CardPaymentMethod</members>
@@ -197,6 +260,14 @@
     <name>CustomObjectTranslation</name>
   </types>
   <types>
+    <members>Boat__c</members>
+    <members>BoatType__c</members>
+    <members>trlhdtips__Get_Your_Login_Credentials</members>
+    <members>trlhdtips__Install_a_Package</members>
+    <members>trlhdtips__Welcome</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
     <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
     <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
     <name>DuplicateRule</name>
@@ -229,8 +300,10 @@
     <name>EscalationRules</name>
   </types>
   <types>
+    <members>Boat_Record_Page</members>
     <members>LightningSalesConsole_UtilityBar</members>
     <members>LightningService_UtilityBar</members>
+    <members>trlhdtips__Trailhead_Tips_UtilityBar</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -279,6 +352,9 @@
     <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
     <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
     <members>AuthorizationFormText-Authorization Form Text Layout</members>
+    <members>Boat__c-Boat Layout</members>
+    <members>BoatReview__c-BoatReview Layout</members>
+    <members>BoatType__c-Boat Type Layout</members>
     <members>Campaign-Campaign Layout</members>
     <members>CampaignMember-Campaign Member Page Layout</members>
     <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -357,6 +433,18 @@
     <name>Layout</name>
   </types>
   <types>
+    <members>boatMap</members>
+    <members>boatSearch</members>
+    <members>boatSearchForm</members>
+    <members>boatTile</members>
+    <members>fiveStarRating</members>
+    <name>LightningComponentBundle</name>
+  </types>
+  <types>
+    <members>BoatMessageChannel</members>
+    <name>LightningMessageChannel</name>
+  </types>
+  <types>
     <members>Account.AllAccounts</members>
     <members>Account.MyAccounts</members>
     <members>Account.NewLastWeek</members>
@@ -373,6 +461,8 @@
     <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
     <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
     <members>AuthorizationFormText.All_AuthorizationFormText</members>
+    <members>Boat__c.All</members>
+    <members>BoatType__c.All</members>
     <members>Campaign.AllActiveCampaigns</members>
     <members>Campaign.MyActiveCampaigns</members>
     <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -461,6 +551,14 @@
     <members>WorkFeedbackTemplate.All</members>
     <name>ListView</name>
   </types>
+  <!--
+    <types>
+    <members>cms_document</members>
+    <members>cms_image</members>
+    <members>news</members>
+    <name>ManagedContentType</name>
+  </types>
+  -->
   <types>
     <members>Account.Standard_Account_Match_Rule_v1_0</members>
     <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
@@ -701,6 +799,7 @@
     <members>AuthorizationForm</members>
     <members>AuthorizationFormConsent</members>
     <members>AuthorizationFormDataUse</members>
+    <members>BoatType__c</members>
     <members>CalendarModel</members>
     <members>CalendarView</members>
     <members>Campaign</members>
@@ -754,6 +853,15 @@
     <name>SharingRules</name>
   </types>
   <types>
+    <members>boats</members>
+    <members>fivestar</members>
+    <members>Houseboats</members>
+    <members>PleasureBoats</members>
+    <members>Sailboats</members>
+    <members>trlhdtips__tt_penpal</members>
+    <name>StaticResource</name>
+  </types>
+  <types>
     <members>Account</members>
     <members>Asset</members>
     <members>Boat__c</members>
@@ -778,10 +886,11 @@
   </types>
   <types>
     <members>Account.Billing</members>
+    <members>Boat__c.Similar_Boats</members>
     <members>Campaign.ViewCampaignInfluenceReport</members>
     <members>Case.UpsellCrosssellOpportunity</members>
     <members>Opportunity.DeliveryStatus</members>
     <name>WebLink</name>
   </types>
-  <version>49.0</version>
+  <version>47.0</version>
 </Package>

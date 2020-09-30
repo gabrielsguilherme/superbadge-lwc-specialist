@@ -7,10 +7,8 @@
     <enableDragAndDropScheduling>true</enableDragAndDropScheduling>
     <enableEmailTracking>true</enableEmailTracking>
     <enableGroupTasks>true</enableGroupTasks>
-    <enableHideChildEventsPreference>false</enableHideChildEventsPreference>
     <enableListViewScheduling>false</enableListViewScheduling>
     <enableLogNote>false</enableLogNote>
-    <enableMLSingleClientProfile>false</enableMLSingleClientProfile>
     <enableMultidayEvents>true</enableMultidayEvents>
     <enableRecurringEvents>true</enableRecurringEvents>
     <enableRecurringTasks>true</enableRecurringTasks>
